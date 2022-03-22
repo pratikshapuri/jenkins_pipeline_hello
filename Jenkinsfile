@@ -1,7 +1,4 @@
 node {
-stage('running python script') {
-  steps {
-    sh 'python3 getDiskSpace.py'
-  }
-}
+   stage 'Stage 1'
+   		sh "python3 getDiskSpace.py"
 }
